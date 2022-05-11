@@ -28,11 +28,12 @@ Chapter 1
 
 Chapter 2
 - [x] Redox
-- [] Confirm above works
-- [] Opløselighed
-- [] Confirm above works
-- [] Udfældnings reaktioner
-- [] Confirm above works
+- [ ] Confirm above works
+- [ ] Opløselighed
+- [ ] Confirm above works
+- [ ] Udfældnings reaktioner
+- [ ] Confirm above works
 
 Chapter 3
 ...
+
