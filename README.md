@@ -19,3 +19,18 @@ The '.1E' argument can be changed, to provide more decimal values.
 E.g. '.1E' provides 1 decimal accuracy: 2.2E+05
 E.g. '.2E' provides 1 decimal accuracy: 2.24E+05¨
 And so on...
+
+
+### TODO
+Chapter 1
+[x] Støkometri, reaktions balancing og yield
+[] Confirm above works
+Chapter 2
+[x] Redox
+[] Confirm above works
+[] Opløselighed
+[] Confirm above works
+[] Udfældnings reaktioner
+[] Confirm above works
+Chapter 3
+...
