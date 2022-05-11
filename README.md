@@ -23,14 +23,14 @@ And so on...
 
 ### TODO
 Chapter 1
-[x] Støkometri, reaktions balancing og yield
-[] Confirm above works
+- [x] Støkometri, reaktions balancing og yield
+- [] Confirm above works
 Chapter 2
-[x] Redox
-[] Confirm above works
-[] Opløselighed
-[] Confirm above works
-[] Udfældnings reaktioner
-[] Confirm above works
+- [x] Redox
+- [] Confirm above works
+- [] Opløselighed
+- [] Confirm above works
+- [] Udfældnings reaktioner
+- [] Confirm above works
 Chapter 3
 ...
