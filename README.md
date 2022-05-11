@@ -25,6 +25,7 @@ And so on...
 Chapter 1
 - [x] Støkometri, reaktions balancing og yield
 - [] Confirm above works
+
 Chapter 2
 - [x] Redox
 - [] Confirm above works
@@ -32,5 +33,6 @@ Chapter 2
 - [] Confirm above works
 - [] Udfældnings reaktioner
 - [] Confirm above works
+
 Chapter 3
 ...
