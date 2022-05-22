@@ -4,7 +4,7 @@ from lib.molecule_identifier import Reaction
 
 def main():
     # Zn + Cu2+ ---> Zn2+ + Cu
-    reaction = Reaction('(1)Zn1[0] + (1)Cu1[+2]', '(1)Zn1[+2] + (1)Cu1[0]')
+    #reaction = Reaction('(1)Zn1[0] + (1)Cu1[+2]', '(1)Zn1[+2] + (1)Cu1[0]')
 
     # As2S5(s) + NO3¯(aq) ---> H3AsO4(aq) + HSO4¯(aq) + NO2(g)
     # reaction = Reaction('(1)As2S5[0] + (1)N1O3[-1]', '(1)H3As1O4[0] + (1)H1S1O4[-1] + (1)N1O2[0]')
@@ -22,13 +22,17 @@ def main():
     # reaction = Reaction('(1)H2O2[0]', '(1)H2O1[0] + (1)O2[0]')
 
     # NH3 + ClO¯ ---> N2H4 + Cl¯
-    # reaction = Reaction('(1)N1H3[0] + (1)Cl1O1[-1]', '(1)N2H4[0] + (1)Cl1[-1]')
+
+    # PUT REACTION HERE, EXAMPLES ABOVE ON SYNTAX
+    reaction = Reaction('(1)Mn1[+2] + (1)Pb1O2[0]', '(1)Pb1[+2] + (1)Mn1O4[-1]')
+
     reaction.print_rxn('Initial: ')
 
     (red_rxn, ox_rxn) = reaction.split_rxn()
     red_rxn.print_rxn('Reduction: ')
     ox_rxn.print_rxn('Oxidation: ')
 
+    # CHANGE MEDIUM HERE(ACID OR BASE)
     red_rxn = balance_medium(red_rxn, 'acid')
     red_rxn.print_rxn('Reduction After Medium Balance: ')
     ox_rxn = balance_medium(ox_rxn, 'acid')
